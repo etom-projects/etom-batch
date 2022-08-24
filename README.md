@@ -39,7 +39,3 @@ spring:
 server:
   port: 8090
 ```
-
-## 개선사항
-- reader, processor, writer 패턴으로 동작하여 청크지향 프로세싱하도록 변경.
-- 공통 모듈은 Jar파일로 분리시켜 모듈화하여 사용할 수 있도록 변경
